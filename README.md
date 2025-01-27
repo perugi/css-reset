@@ -1,6 +1,6 @@
 # css-reset
 
-CSS reset as a npm package, based on https://mattbrictson.com/blog/css-normalize-and-reset 
+CSS reset as a npm package, based on <https://mattbrictson.com/blog/css-normalize-and-reset>
 
 ## Usage
 
