@@ -1,17 +1,14 @@
-# npm-template
+# css-reset
 
-A template repo for modules, published on npm, with basic setup development dependencies installed.
+CSS reset as a npm package, based on https://mattbrictson.com/blog/css-normalize-and-reset 
 
 ## Usage:
-
-- Install dependencies: `$ npm install`
-- Change package name, description and git repo in package.json
-- Create module in package.js
-- Change this README file
-- Publish to npm: `$ npm publish --access public`
-
 Install:
-
+```bash
+$ npm install @perugi/css-reset
 ```
-$ npm install @perugi/changeme
+
+Use: 
+```css
+@import 'node_modules/@perugi/css-reset/modern-normalize.css';
 ```

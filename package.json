@@ -1,34 +1,27 @@
 {
-  "name": "@perugi/changeme",
+  "name": "@perugi/css-reset",
   "version": "1.0.0",
   "type": "module",
-  "description": "CHANGEME",
-  "main": "package.js",
+  "description": "CSS reset as a npm package, based on https://mattbrictson.com/blog/css-normalize-and-reset",
+  "main": "reset.css",
   "scripts": {
-    "test": "jest",
-    "watch": "jest --watch"
+    "test": ""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/perugi/CHANGEME.git"
+    "url": "git+https://github.com/perugi/css-reset.git"
   },
   "author": "Dominik Perusko",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/perugi/CHANGEME/issues"
+    "url": "https://github.com/perugi/css-reset/issues"
   },
-  "homepage": "https://github.com/perugi/CHANGEME#readme",
+  "homepage": "https://github.com/perugi/css-reset#readme",
   "devDependencies": {
-    "@babel/core": "^7.23.9",
-    "@babel/preset-env": "^7.23.9",
-    "@perugi/eslint-config": "^1.0.3",
-    "@perugi/prettier-config": "^1.0.2",
-    "babel-jest": "^29.7.0",
-    "eslint": "^8.56.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-import": "^2.29.1",
-    "jest": "^29.7.0"
+    "@perugi/prettier-config": "^1.0.2"
   },
-  "prettier": "@perugi/prettier-config"
+  "prettier": "@perugi/prettier-config",
+  "dependencies": {
+    "modern-normalize": "^3.0.1"
+  }
 }
