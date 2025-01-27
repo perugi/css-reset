@@ -10,5 +10,5 @@ $ npm install @perugi/css-reset
 
 Use: 
 ```css
-@import 'node_modules/@perugi/css-reset/modern-normalize.css';
+@import '@perugi/css-reset/reset.css';
 ```
